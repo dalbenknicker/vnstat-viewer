@@ -1,5 +1,14 @@
 <?php
 
+$vnstat_version = "1.0";
+
+define ('MINTYP',  0);
+define ('HOURTYP', 1);
+define ('DAYTYP',  2);
+define ('MONTYP',  3);
+define ('YEARTYP', 4);
+define ('TOPTYP',  5);
+
 require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/include/config.php';
 require __DIR__ . '/include/util.php';

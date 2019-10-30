@@ -8,7 +8,7 @@
      <div class="dropdown">
 
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-           Interface-Selektion
+           Interface-Selection
         </button>
 
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">

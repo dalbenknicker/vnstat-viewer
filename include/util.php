@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * Teilweise wurde Code von Alexander Marston (alexander.marston@gmail.com) verwendet
+ */
+
 function mylog($message)
 {
   if ($GLOBALS["DEBUG"])

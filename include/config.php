@@ -1,20 +1,18 @@
 <?php
 
-$DEBUG = 1;
+// Ausgabe von einigen Debugausgaben mit mylog("Message"))
+$DEBUG = 0;
 
-define ('MINTYP',  0);
-define ('HOURTYP', 1);
-define ('DAYTYP',  2);
-define ('MONTYP',  3);
-define ('YEARTYP', 4);
-define ('TOPTYP',  5);
-
+// Zeitzone
 date_default_timezone_set('Europe/Berlin');
 
-$vnstat_version = "1.0";
-//$vnstat_bin_dir = '/usr/bin/vnstat';
-$vnstat_bin_dir = 'ssh router vnstat';
+// Auswertung von vstat für einen entfernten host
+// gültige ssh-Verbindung mit public-key
+// $vnstat_bin_dir = 'ssh myrouter vnstat';
+// default localhost
+$vnstat_bin_dir = '/usr/bin/vnstat';
 
+// Anzeige der Schnittstellennamen ändern
 $iface_doreplace = true;
 $iface_replace = [
   

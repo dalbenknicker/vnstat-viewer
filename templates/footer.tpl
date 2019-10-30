@@ -3,8 +3,8 @@
   
   <div class="container">
     
-    <span class="text-muted">Software by Heizer -
-      <a href="https://github.com/alexandermarston/vnstat-dashboard">vnstat-dashboard</a>
+    <span class="text-muted">Software by Dalbenknicker
+      <a href="https://github.com/dalbenknicker/vnstat-viewer">vnstat-viewer</a>
     </span>
     
   </div>
