@@ -15,7 +15,7 @@ Funktionsumfang:
 ```
 $ cd tmp
 $ git clone https://github.com/dalbenknicker/vnstat-viewer.git
-$ cp -rp /tmp/vnstat-viewer /srv/http/vnstat/
+$ cp -rp vnstat-viewer /srv/http/vnstat/
 $ cd /srv/http/vnstat/
 $ composer install
 ```
