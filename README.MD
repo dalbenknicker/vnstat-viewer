@@ -34,10 +34,14 @@ $DEBUG = 0;
 // Zeitzone
 date_default_timezone_set('Europe/Berlin');
 
-//Auswertung für einen entfernten host mit public-key
-$vnstat_bin_dir = 'ssh myrouter vnstat';
+// Auswertung von vnstat für einen entfernten host
+// gültige ssh-Verbindung mit public-key
+// $vnstat_bin_dir = 'ssh myrouter vnstat --json';
+// oder
+// $vnstat_bin_dir = "echo userpassword|su -c 'ssh myrouter vnstat --json' username";
+
 //localhost
-//$vnstat_bin_dir = '/usr/bin/vnstat';
+//$vnstat_bin_dir = '/usr/bin/vnstat --json';
 
 //Namen der angezeigtn Schnittstellen ändern
 $iface_doreplace = true;

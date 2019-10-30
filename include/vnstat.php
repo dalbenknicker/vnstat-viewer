@@ -47,7 +47,7 @@ class vnstat
       $this->id_iface = 0;
       $this->dia      = 0;
     
-      $stream = popen("$this->_path --json", 'r');
+      $stream = popen("$this->_path", 'r');
       if (!is_resource($stream))
       {
          mylog("stream invalid");
