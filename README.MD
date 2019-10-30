@@ -21,9 +21,9 @@ $ composer install
 ```
 
 # Konfiguration
-Die angezeigten Namen der Schnittstellen können verändert werden.Bei einer
+Die angezeigten Namen der Schnittstellen können verändert werden. Bei einer
 konfigurierten ssh-Verbindung mit `public key` könnte z.b auch die Statistik
-eines entfernten hosts abgerufen werden. Siehe hierzu [include/config.php](https://github.com/dalbenknicker/vnstat-viewer/blob/master/include/config.php)
+eines entfernten `host` abgerufen werden. Siehe hierzu [include/config.php](https://github.com/dalbenknicker/vnstat-viewer/blob/master/include/config.php)
 ```
 <?php
 
