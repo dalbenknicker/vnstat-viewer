@@ -20,8 +20,8 @@ class vnstat
    public    $id_iface;
    protected $_path;
    protected $_data;
-   protected $vnstat_version;
-   protected $json_version;
+   public    $vnstat_version;
+   public    $json_version;
    protected $interfaces = [];
 
    protected $vdata_5min;

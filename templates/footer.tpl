@@ -2,9 +2,10 @@
 <footer class="footer">
   
   <div class="container">
-    
+
     <span class="text-muted">Software by Dalbenknicker
       <a href="https://github.com/dalbenknicker/vnstat-viewer">vnstat-viewer</a>
+      <a><font size="1"> Version {$version} vnstat {$vnstat->vnstat_version}</a>
     </span>
     
   </div>

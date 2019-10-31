@@ -41,6 +41,7 @@ else
 $vnstat->ReadData();
 
 $smarty->assignByRef('vnstat', $vnstat);
+$smarty->assign('version', $vnstat_version);
 $smarty->display('main.tpl');
 
 ?>
