@@ -4,13 +4,13 @@
   <ul class="nav nav-tabs">
      
     <li class="nav-item">
-      <a href="#min" class="nav-link active" id="mintab" active role="tab" data-toggle="tab" aria-controls="min-tab" aria-selected="true">5Min</a>
+      <a href="#min" class="nav-link" id="mintab" role="tab" data-toggle="tab" aria-controls="min-tab" aria-selected="false">5Min</a>
     </li>
     <li class="nav-item">
       <a href="#hour" class="nav-link" id="hourtab" role="tab" data-toggle="tab" aria-controls="hour-tab" aria-selected="false">Hourly</a>
     </li>
     <li class="nav-item">
-      <a href="#day" class="nav-link" id="daytab" role="tab" data-toggle="tab" aria-controls="day-tab" aria-selected="false">Daily</a>
+      <a href="#day" class="nav-link active" id="daytab" role="tab" data-toggle="tab" aria-controls="day-tab" aria-selected="true">Daily</a>
     </li>
     <li class="nav-item">
       <a href="#mon" class="nav-link" id="montab" role="tab" data-toggle="tab" aria-controls="mon-tab" aria-selected="false">Monthly</a>
@@ -26,13 +26,13 @@
 
   <div class="tab-content">
 
-    <div role="tabpanel" class="tab-pane active" id="min" aria-labelledby="mintab" aria-selected="true">
+    <div role="tabpanel" class="tab-pane" id="min" aria-labelledby="mintab" aria-selected="false">
 
       <table class="table table-bordered">
 
         <thead>
           <tr>
-            <th>Hour</th>
+            <th>Min</th>
             <th>Received</th>
             <th>Sent</th>
             <th>Total</th>
@@ -54,7 +54,7 @@
 
     </div>
 
-    <div role="tabpanel" class="tab-pane" id="hour">
+    <div role="tabpanel" class="tab-pane" id="hour" aria-labelledby="hourtab" aria-selected="false">
 
       <table class="table table-bordered">
 
@@ -82,13 +82,13 @@
 
     </div>
       
-    <div role="tabpanel" class="tab-pane" id="day">
+    <div role="tabpanel" class="tab-pane active" id="day" aria-labelledby="daytab" aria-selected="true">
 
       <table class="table table-bordered">
              
         <thead>
           <tr>
-            <th>Hour</th>
+            <th>Day</th>
             <th>Received</th>
             <th>Sent</th>
             <th>Total</th>
@@ -110,13 +110,13 @@
 
     </div>
 
-    <div role="tabpanel" class="tab-pane" id="mon">
+    <div role="tabpanel" class="tab-pane" id="mon" aria-labelledby="montab" aria-selected="false">
         
       <table class="table table-bordered">
              
         <thead>
           <tr>
-            <th>Hour</th>
+            <th>Month</th>
             <th>Received</th>
             <th>Sent</th>
             <th>Total</th>
@@ -138,13 +138,13 @@
             
     </div>
       
-    <div role="tabpanel" class="tab-pane" id="year">
+    <div role="tabpanel" class="tab-pane" id="year" aria-labelledby="montab" aria-selected="false">
 
       <table class="table table-bordered">
              
         <thead>
           <tr>
-            <th>Hour</th>
+            <th>Year</th>
             <th>Received</th>
             <th>Sent</th>
             <th>Total</th>
@@ -165,13 +165,13 @@
        
     </div>
       
-    <div role="tabpanel" class="tab-pane" id="top">
+    <div role="tabpanel" class="tab-pane" id="top" aria-labelledby="toptab" aria-selected="false">
 
       <table class="table table-bordered">
              
         <thead>
           <tr>
-            <th>Hour</th>
+            <th>Top</th>
             <th>Received</th>
             <th>Sent</th>
             <th>Total</th>

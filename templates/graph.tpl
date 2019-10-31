@@ -4,7 +4,7 @@
    <ul class="nav nav-tabs" id="graphTab" role="tablist">
 
        <li class="nav-item">
-          <a class="nav-link active" id="min-graph-tab" data-toggle="tab" href="#min-graph" role="tab" aria-controls="min-graph" aria-selected="true">5Min Graph</a>
+          <a class="nav-link" id="min-graph-tab" data-toggle="tab" href="#min-graph" role="tab" aria-controls="min-graph" aria-selected="false">5Min Graph</a>
        </li>
 
        <li class="nav-item">
@@ -12,7 +12,7 @@
        </li>
        
        <li class="nav-item">
-         <a class="nav-link" id="daily-graph-tab" data-toggle="tab" href="#daily-graph" role="tab" aria-controls="daily-graph" aria-selected="false">Daily Graph</a>
+         <a class="nav-link active" id="daily-graph-tab" data-toggle="tab" href="#daily-graph" role="tab" aria-controls="daily-graph" aria-selected="true">Daily Graph</a>
        </li>
        
        <li class="nav-item">
@@ -27,7 +27,7 @@
 
    <div class="tab-content">
        
-       <div class="tab-pane active" id="min-graph" role="tabpanel" aria-labelledby="min-graph-tab">
+       <div class="tab-pane" id="min-graph" role="tabpanel" aria-labelledby="min-graph-tab">
          <div id="minNetworkTrafficGraph" style="height: 300px;"></div>
        </div>
 
@@ -35,7 +35,7 @@
          <div id="hourlyNetworkTrafficGraph" style="height: 300px;"></div>
        </div>
 
-       <div class="tab-pane" id="daily-graph" role="tabpanel" aria-labelledby="daily-graph-tab">
+       <div class="tab-pane active" id="daily-graph" role="tabpanel" aria-labelledby="daily-graph-tab">
          <div id="dailyNetworkTrafficGraph" style="height: 300px;"></div>
        </div>
 
